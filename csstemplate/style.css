@@ -1,0 +1,443 @@
+@charset "Shift_JIS";
+/* 文字エンコードの設定（削除不可） */
+/* *********************************************** */
+/* 
+ * CSS着せ替えテンプレート用デザイン
+ *  Author: 坂取
+ *  Author URI: http://az-store.nrym.org/
+ */
+/* *********************************************** */
+/* HTML要素（一部#ID） */
+*
+	{
+	margin: 0;
+	padding: 0;
+	font: normal normal normal 100.01%/1.8 Verdana,Tahoma,Helvetica,sans-serif;
+	text-decoration: none;
+	}
+
+/* 基本構造 */
+html
+	{
+	height: 100%;
+	margin-bottom: 1px;
+	background: #eeeeee;
+	}
+body
+	{
+	text-align: center;
+	color: #333333;
+	background: #eeeeee;
+	font-size: 90%;
+	}
+hr
+	{
+	display: none;
+	}
+img
+	{
+	margin: 1px;
+	padding: 0;
+	}
+/*a img
+	{
+	border: none;
+	}
+
+/* 見出し */
+h1,h2,h3,h4,h5,h6
+	{
+	font-weight: bold;
+	}
+h1
+	{
+	font: 350% "Arial Black",Arial,Helvetica,sans-serif;
+	text-transform: capitalize;
+	color: #336600;
+	}
+/* サイト名の文字（インデックス） */
+#INDEX #HEADER h1
+	{
+	text-transform: uppercase;
+	}
+#KIZI h2
+	{
+	font-size: 175%;
+	margin: 0.5em 0;
+	border-bottom: 3px solid #336600;
+	color: #333333;
+	font-family: "Times New Roman","ＭＳ 明朝",serif;
+	}
+.text h3
+	{
+	color: #336600;
+	letter-spacing: 0.1em;
+	font-family: "Franklin Gothic Medium",Helvetica,Arial,sans-serif;
+	font-size: 150%;
+	margin: 0.25em 0;
+	padding-left: 0.5em;
+	}
+.text h4
+	{
+	color: #cc3399;
+	font-size: 125%;
+	margin: 0.5em 0;
+	padding: 0 0 1px 15px;
+	background: url("./image/h4.gif") no-repeat left bottom;
+	}
+.text h4 a
+	{
+	font-weight: bold;
+	}
+.text h5
+	{
+	color: #006666;
+	font-size: 110%;
+	margin: 0.5em 0;
+	padding: 0 0 0 15px;
+	background: url("./image/h5.gif") no-repeat left center;
+	}
+.text h6
+	{
+	color: #black;
+	margin: 0.5em 0;
+	padding: 0 0 0 15px;
+	background: url("./image/h6.gif") no-repeat left center;
+	}
+
+/* 段落 */
+#KIZI p
+	{
+	margin: 1em -0.2;
+	font-size: 115%;
+	}
+
+/* アンカー */
+a
+	{
+	text-decoration: none;
+	}
+a:link
+	{
+	color: #336600;
+	}
+a:visited
+	{
+	color: #99cc00;
+	}
+a:hover,
+a:active
+	{
+	color: #0099cc;
+	}
+.text a,
+#FOOTER a
+	{
+	text-decoration: underline;
+	}
+
+/* 強調・追加・削除 */
+em
+	{
+	border-bottom: 1px solid;
+	}
+strong
+	{
+	font-weight: 700;
+	}
+ins
+	{
+	color: #666666;
+	}
+del
+	{
+	color: #666666;
+	text-decoration: line-through;
+	}
+
+/* フォーム */
+
+input,
+textarea,
+select
+	{
+	background: #eeeeee;
+	padding: 0.1em;
+	color: #333333;
+	border: 1px solid;
+	line-height: 1.2;
+	border: 1px solid #336600;
+	/*\*//*/
+	font-family: Osaka, sans-serif;
+	/**/
+	}
+input:hover,
+textarea:hover,
+select:hover
+	{
+	background: #fefefe;
+	border: 1px solid #0099cc;
+	}
+input[type="submit"]
+	{
+	background: #336600;
+	border: 1px solid #336600;
+	color: #fefefe;
+	padding: 2px 3px;
+	}
+
+/* リスト */
+#KIZI ol
+	{
+	padding: 0px 0;
+	margin: 0 0 0 1.5em;
+	}
+#KIZI ol li
+	{
+	margin: 0 0 0 2em;
+	font-size: 115%;
+	padding: 2px 0 10px;
+	}
+#KIZI ul
+	{
+		margin: 0 0 0 2em;
+	font-size: 120%;
+	padding: 5px 0;
+	margin: 0 0 0 1.5em;
+	}
+#KIZI li
+	{
+	padding: 0;
+	}
+#KIZI dl
+	{
+	padding: 5px 0;
+	}
+#KIZI dt
+	{
+	font-weight: bold;
+	}
+#KIZI dd
+	{
+	margin-left: 1em;
+	padding-left: 0.5em;
+	border-left: 5px solid #eeeeee;
+	}
+
+/* アドレス */
+address
+	{
+	font-weight: normal;
+	display: inline;
+	}
+
+/* 引用（サンプルページ未記述） */
+blockquote
+	{
+	border-left: 5px double #cccccc;
+	margin: 1em 0.5em;
+	padding: 5px;
+	}
+cite
+	{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	}
+q
+	{
+	quotes:"\300c" "\300d" "\300e" "\300f";
+	background:#eeeeee;
+	}
+q:before
+	{
+	content:open-quote;
+	}
+q:after
+	{
+	content:close-quote;
+	}
+
+/* 整形済みテキスト（サンプルページ未記述） */
+pre
+	{
+	background: #eeeeee;
+	margin: 1em;
+	padding: 5px;
+	width: 95%;
+	overflow: scroll;
+	}
+
+/* 物理要素（サンプルページ未記述） */
+tt
+	{
+	font-family: monospace;
+	}
+b
+	{
+	font-weight: bold;
+	}
+i
+	{
+	font-style: oblique;
+	}
+big
+	{
+	font-size: 120%;
+	}
+small
+	{
+	font-size: 80%;
+	}
+
+/* ***********************************************
+/* 各#ID＆.class */
+
+body#INDEX
+	{
+	}
+
+#PAGETOP
+	{
+	text-align: left;
+	margin: 0 auto;
+	width: 80%;
+	max-width: 65em;
+	background: #fefefe;
+	position: relative;
+	}
+#HEADER
+	{
+	background: #eeeeee;
+	padding: 2em 0 0 1.5em;
+	}
+
+ul#PAN
+	{
+	position: absolute;
+	top: 5em;
+	right: 0;
+	text-align: right;
+	margin: 0;
+	padding: 0 1.5em;
+	}
+ul#PAN li
+	{
+	list-style: none;
+	}
+ul#PAN li
+	{
+	display: inline;
+	}
+/***********
+ ul#PAN a
+	{
+	text-decoration: none;
+	border-right:1px solid #333333;
+	padding:0 0.7em 0 0;
+	text-decoration: underline;
+	}
+/* メニューリスト・リンク */
+#MENU
+	{
+	margin: 0;
+	height: 3em;
+	background: #336600 url("./image/navigation-maru-end.gif") no-repeat 100% 0%;
+	}
+	/* メニュー見出し（非表示） */
+#MENU h2
+	{
+	background: url("./image/navigation-maru-start.gif") no-repeat 0% 0%;
+	text-indent: -9999px;
+	}
+#MENU ul
+	{
+	margin: -2em 0 0 0;
+	}
+#MENU li
+	{
+	float: left;
+	list-style-type: none;
+	padding: 0;
+	line-height: 1.0;
+	width: 8em;
+	height: 3.5em;
+	}
+#MENU li a
+	{
+	margin: 1em 0 0.5em 0;
+	padding: 0 0 2px 0;
+	font: 120% Arial,sans-serif;
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	color: #fefefe;
+	border-right: 1px solid #fefefe;
+	}
+/* 記事部分 */
+#KIZI
+	{
+	margin: 0 1.5em;
+	padding: 0.5em 0 0;
+	}
+*+html #KIZI
+	{
+	min-height: 1%;
+	}
+
+/* 戻りの設定 */
+#KIZI ul.modori
+	{
+	list-style: none;
+	padding-right: 1em;
+	}
+#KIZI ul.modori li
+	{
+	list-style: none;
+	display: block;
+	text-align: right;
+	}
+#KIZI ul.modori li a
+	{
+	display: inline;
+	text-decoration: none;
+	font-weight: bold;
+	}
+
+/* フッター */
+	/* フッター・ページ下部 */
+#FOOTER
+	{
+	text-align: center;
+	background: #eeeeee;
+	border-top: 5px solid #336600;
+	padding: 0;
+	padding-bottom: 2em;
+	}
+#FOOTER h2
+	{
+	display: none;
+	}
+#FOOTER ul
+	{
+	padding: 0.5em 0 0.25em 0;
+	}
+#FOOTER li
+	{
+	list-style: none;
+	display: inline;
+	margin: 0 0.5em;
+	}
+#FOOTER address
+	{
+	display: inline;
+	padding: 0.25em 0 3em 0;
+	}
+#FOOTER a
+	{
+	font: 120% "Arial Black",Helvetica,Arial,sans-serif;
+	}
