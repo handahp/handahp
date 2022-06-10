@@ -1,218 +1,414 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LBBC29GSBK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-LBBC29GSBK');
-</script>
-<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
-<meta http-equiv="Content-Style-Type" content="text/css">
-<link rel="stylesheet" href="./csstemplate/style.css" type="text/css">
-<title>Taketo Handa - 2.0.1</title>
+	<!-- default settings-->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-LBBC29GSBK"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-LBBC29GSBK');
+	</script>
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<!-- Stylesheet & title -->
+	<link rel="stylesheet" href="./csstemplate/style.css" type="text/css">
+	<title>Taketo Handa - 2.0.1</title>
+	<!-- Fontawesome -->
+	<script src="https://kit.fontawesome.com/4dbf49e8a3.js" crossorigin="anonymous"></script>
 </head>
-<body id="INDEX">
-<div id="PAGETOP">
-<div id="HEADER">
-<h1>Taketo Handa</h1>
-<br>
+<body>
+	<!-- Header -->
+	<section id="header">
+		<div class="container">
+      		<header class="header">
+				<h1><a href="index.html">Taketo Handa</a></h1>
+        		<button class="nav-btn" aria-controls="navigation" aria-expanded="false">
+            		<i class="fa-solid fa-bars fa-xl"></i>
+        		</button>
+        		<nav>
+					<ul id="navigation" class="nav-links" data-visible="false">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="profile_e.html">Profile</a></li>
+						<li><a href="publications_e.html">Publications</a></li>
+						<li><a href="conference_e.html">Conference</a></li>
+						<li><a href="links_e.html">Links</a></li>
+					</ul>
+			  	</nav>
+      		</header>
+		</div>
+	</section>
+	<main id="publications">
+		<section id="publications-journal-articles">
+			<div class="container">
+				<h2 class="mb-1">Publications</h2>
+				<h3>
+					Journal Articles
+					<span class="fs-0p8r fw-normal">
+						<i class="fa-solid fa-link"></i>See also <a href="https://scholar.google.co.jp/citations?user=CUQk50IAAAAJ&hl=ja&oi=ao" target="_blank">Google Scholar</a>
+					</span>
+				</h3>
+				<ol class="journal-articles-list" reversed>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Optimized carrier extraction at interfaces for 23.6% efficient tin-lead perovskite solar cells</h4>
+						<p class="author">
+							S. Hu, K. Otsuka, R. Murdey, T. Nakamura, M. A. Truong, T. Yamada, <em>T. Handa</em>, K. Matsuda, K. Nakano, A. Sato, K. Marumoto, K. Tajima, Y. Kanemitsu, and A. Wakamiya
+						</p>
+						<p class="journal">
+							<a href="https://pubs.rsc.org/en/content/articlehtml/2022/ee/d2ee00288d" target="_blank"><I>Energy Environ. Sci.</I></a>, Advanced article (2022).
+						</p>
+						<div class="asterisk">
+							<span class="red"><i class="fa-solid fa-circle-check"></i> Picked up on 
+								<a href="https://www.kyoto-u.ac.jp/ja/research-news/2022-04-13-1" target="_blank">Kyoto University's website</a>
+							</span>
+						</div>
+					</li>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Mixed lead-tin perovskite films with > 7 μs charge carrier lifetimes realized by maltol post-treatment</h4>
+						<p class="author">
+							S. Hu, M.A. Truong, K. Otsuka, <em>T. Handa</em>, T. Yamada, R. Nishikubo, Y. Iwasaki, A. Saeki, R. Murdey, Y. Kanemitsu, and A. Wakamiya
+						</p>
+						<p class="journal">
+							<a href="https://pubs.rsc.org/en/content/articlehtml/2021/sc/d1sc04221a" target="_blank"><I>Chem. Sci.</I></a>
+							<span class="fw-bold"> 12</span>, 13513-13519 (2021).
+						</p>
+					</li>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Light emission from halide perovskite semiconductors: bulk crystals, thin films, and nanocrystals</h4>
+						<p class="author">
+							Takumi Yamada, <em>Taketo Handa</em>, Yasuhiro Yamada, and Yoshihiko Kanemitsu
+						</p>
+						<p class="journal">
+							<a href="https://iopscience.iop.org/article/10.1088/1361-6463/ac0e58/meta" target="_blank"><I>J. Phys. D: Appl. Phys.</I></a>
+							<span class="fw-bold"> 54</span>, 383001 (2021).
+						</p>
+						<div class="asterisk">
+							<span class="green"><i class="fa-solid fa-circle-check"></i> Topical review</span>
+						</div>
+						</li>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Near-Ultraviolet Transparent Organic Hole-Transporting Materials Containing Partially Oxygen-Bridged Triphenylamine Skeletons for Efficient Perovskite Solar Cells</h4>
+						<p class="author">
+							Minh Anh Truong, Hayoon Lee, Ai Shimazaki, Ryota Mishima, Masashi Hino, Kenji Yamamoto, Kento Otsuka, <em>Taketo Handa</em>, Yoshihiko Kanemitsu, Richard Murdey, and Atsushi Wakamiya
+						</p>
+						<p class="journal">
+							<a href="https://pubs.acs.org/doi/abs/10.1021/acsaem.0c02677" target="_blank"><I>ACS Appl. Energy Mater.</I></a>
+							<span class="fw-bold"> 4</span>, 1484-1495 (2021).
+						</p>
+					</li>
 
-</div>
-<hr><div id="MENU">
-<h2>menu</h2>
-<ul>
-<li id="MENU01" class="menu-on"><a href="index.html">Home</a></li>
-<li id="MENU02"><a href="profile_e.html">Profile</a></li>
-<li id="MENU03"><a href="publications_e.html">Publications</a></li>
-<li id="MENU04"><a href="conference_e.html">Conference</a></li>
-<li id="MENU05"><a href="links_e.html">Links</a></li>
-</ul>
-</div>
-<hr><div id="KIZI">
-<h2>Publications </h2>
-<div class="text">
-<h3>Journal Articles   (See also <a href="https://scholar.google.co.jp/citations?user=CUQk50IAAAAJ&hl=ja&oi=ao" target="_blank">Google Scholar</a>)</h3>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Materials Chemistry Approach for Efficient Lead-Free Tin Halide Perovskite Solar Cells</h4>
+						<p class="author">
+							T. Nakamura, <em>T. Handa</em>, R. Murdey, Y. Kanemitsu, and A. Wakamiya
+						</p>
+						<p class="journal">
+							<a href="https://pubs.acs.org/doi/10.1021/acsaelm.0c00859" target="_blank"><I>ACS Appl. Electron. Mater.</I></a>
+							<span class="fw-bold"> 2</span>, 3794-3804 (2020).
+						</p>
+						<div class="asterisk">
+							<span class="green"><i class="fa-solid fa-circle-check"></i> Spotlight on Applications</span>
+						</div>
+					</li>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Phonon, thermal, and thermo-optical properties of halide perovskites</h4>
+						<p class="author">
+							<em>T. Handa</em>, T. Yamada, M. Nagai, and Y. Kanemitsu
+						</p>
+						<p class="journal">
+							<a href="https://pubs.rsc.org/en/content/articlelanding/2020/cp/d0cp04426a" target="_blank"><I>Phys. Chem. Chem. Phys.</I></a>
+							<span class="fw-bold"> 22</span>, 26069-26087 (2020).
+						</p>
+						<div class="asterisk">
+							<span class="green"><i class="fa-solid fa-circle-check"></i> Perspective paper</span>
+							<span class="red"><i class="fa-solid fa-circle-check"></i> Selected as <a href="https://pubs.rsc.org/en/journals/articlecollectionlanding?sercode=cp&themeid=82b7cc99-4e0c-4c4a-bb00-a57a776e3a9c" target="_blank">2020 HOT PCCP article</a>, so it is free to access until Februrary 2021!</span>
+						</div>
+					</li>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Large thermal expansion leads to negative thermo-optic coefficient of halide perovskite CH<small>3</small></sub>NH<small>3</small></sub>PbCl<small>3</small></sub></h4>
+						<p class="author">
+							<em>T. Handa</em>, H. Tahara, T. Aharen, A. Shimazaki, A. Wakamiya, and Y. Kanemitsu
+						</p>
+						<p class="journal">
+							<a href="https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.4.074604" target="_blank"><I>Phys. Rev. Materials</I></a>
+							<span class="fw-bold"> 4</span>, 074604 (2020).
+						</p>
+						<div class="asterisk">
+							<span class="blue"><i class="fa-solid fa-circle-check"></i> Open access</span>
+						</div>
+					</li>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Sn(IV)-free tin perovskite films realized by in situ Sn(0) nanoparticle treatment of the precursor solution</h4>
+						<p class="author">
+							T. Nakamura, S. Yakumaru, M. A. Truong, K. Kim, J. Liu, S. Hu, K. Otsuka, R. Hashimoto, R. Murdey, T. Sasamori, H. D. Kim, H. Ohkita, <em>T. Handa</em>, Y. Kanemitsu, and A. Wakamiya
+						</p>
+						<p class="journal">
+							<a href="https://www.nature.com/articles/s41467-020-16726-3" target="_blank"><I>Nat. Commun.</I></a>
+							<span class="fw-bold"> 11</span>, 3008 (2020).
+						</p>
+						<div class="asterisk">
+							<span class="blue"><i class="fa-solid fa-circle-check"></i> Open access</span>
+							<span class="red"><i class="fa-solid fa-circle-check"></i> Picked up on <a href="http://www.kyoto-u.ac.jp/ja/research/research_results/2020/200616_1.html" target="_blank">Kyoto University's website</a></span>
+						</div>
+					</li>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Optical responses of lead halide perovskite semiconductors</h4>
+						<p class="author">
+							Y. Kanemitsu, T. Yamada, <em>T. Handa</em>, and M. Nagai
+						</p>
+						<p class="journal">
+							<a href="https://iopscience.iop.org/article/10.1088/1361-6641/ab95b1/meta" target="_blank"><I>Semicond. Sci. Technol.</I></a>
+							<span class="fw-bold"> 35</span>, 093001 (2020).
+						</p>
+						<div class="asterisk">
+							<span class="green"><i class="fa-solid fa-circle-check"></i> Topycal review</span>
+						</div>
+					</li>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>One-step solution synthesis of white-light-emitting films via dimensionality control of the Cs-Cu-I system</h4>
+						<p class="author">
+							T. Jun, <em>T. Handa</em>, K. Sim, S. Iimura, M. Sasase, J. Kim, Y. Kanemitsu, and H. Hosono
+						</p>
+						<p class="journal">
+							<a href="https://aip.scitation.org/doi/10.1063/1.5127300" target="_blank"><I>APL Mater.</I></a>
+							<span class="fw-bold"> 7</span>, 111113 (2019).<!-- (DOI: 10.1063/1.5127300)-->
+						</p>
+						<div class="asterisk">
+							<span class="blue"><i class="fa-solid fa-circle-check"></i> Open access</span>
+							<span class="red"><i class="fa-solid fa-circle-check"></i> Featured in <a href="https://aip.scitation.org/doi/10.1063/10.0000372" target="_blank">Scilight</a></span>
+						</div>
+					</li>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Photophysics of lead-free tin halide perovskite films and solar cells</h4>
+						<p class="author">
+							<em>T. Handa</em>, A. Wakamiya, and Y. Kanemitsu
+						</p>
+						<p class="journal">
+							<a href="https://aip.scitation.org/doi/10.1063/1.5109704" target="_blank"><I>APL Mater.</I></a>
+							<span class="fw-bold"> 7</span>, 080903 (2019).<!--  (DOI: 10.1063/1.5109704)-->
+						</p>
+						<div class="asterisk">
+							<span class="green"><i class="fa-solid fa-circle-check"></i> Perspective paper</span>
+							<span class="blue"><i class="fa-solid fa-circle-check"></i> Open access</span>
+						</div>
+					</li>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Large negative thermo-optic coefficients of a lead halide perovskite</h4>
+						<p class="author">
+							<em>T. Handa</em>, H. Tahara, T. Aharen, and Y. Kanemitsu
+						</p>
+						<p class="journal">
+							<a href="https://www.science.org/doi/10.1126/sciadv.aax0786" target="_blank"><I>Sci. Adv.</I></a>
+							<span class="fw-bold"> 5</span>, eaax0786 (2019).<!--  (DOI: 10.1126/sciadv.aax0786)-->
+						</p>
+						<div class="asterisk">
+							<span class="blue"><i class="fa-solid fa-circle-check"></i> Open access</span>
+							<span class="red"><i class="fa-solid fa-circle-check"></i> Picked up on <a href="http://www.kyoto-u.ac.jp/ja/research/research_results/2019/190720_1.html" target="_blank">Kyoto University's website</a>.</span>
+						</div>
+					</li>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Structure-property relations in Ag-Bi-I compounds: potential Pb-free absorbers in solar cells</h4>
+						<p class="author">
+							A. Koedtruad, M. Goto, M. A. Patino, Z. Tan, H. Guo, T. Nakamura, <em>T. Handa</em>, W.-T. Chen, Y.-C. Chuang, H.-S. Sheu, T. Saito, D. Kan, Y. Kanemitsu, A. Wakamiya, and Y. Shimakawa 
+						</p>
+						<p class="journal">
+							<a href="https://pubs.rsc.org/en/content/articlelanding/2019/ta/c8ta11227d" target="_blank"><I>J. Mater. Chem. A</I></a>
+							<span class="fw-bold"> 7</span>, 5583-5588 (2019).<!-- (DOI: 10.1039/c8ta11227d)-->
+						</p>
+					</li>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Lead‐Free Solar Cells based on Tin Halide Perovskite Films with High Coverage and Improved Aggregation</h4>
+						<p class="author">
+							J. Liu, M.Ozaki, S. Yakumaru, <em>T. Handa</em>, R. Nishikubo, Y. Kanemitsu, A. Saeki, Y. Murata, R. Murdey, and A. Wakamiya
+						</p>
+						<p class="journal">
+							<a href="https://onlinelibrary.wiley.com/doi/full/10.1002/anie.201808385" target="_blank"><I>Angew. Chem. Int. Ed.</I></a>
+							<span class="fw-bold"> 57</span>, 13221-13225 (2018).<!-- (DOI: 10.1002/anie.201808385)-->
+						</p>
+					</li>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Photophysics of metal halide perovskites: from materials to devices</h4>
+						<p class="author">
+							Y. Kanemitsu and <em>T. Handa</em>
+						</p>
+						<p class="journal">
+							<a href="https://iopscience.iop.org/article/10.7567/JJAP.57.090101" target="_blank"><I>Jpn. J. Appl. Phys.</I></a>
+							<span class="fw-bold"> 57</span>, 090101 (2018).<!-- (DOI: 10.7567/JJAP.57.090101)-->
+						</p>
+						<div class="asterisk">
+							<span class="green"><i class="fa-solid fa-circle-check"></i> Invited review</span>
+							<span class="blue"><i class="fa-solid fa-circle-check"></i> Open access </span>
+							<span class="red"><i class="fa-solid fa-circle-check"></i> Awarded for the JSAP Best Review Paper Award </span>
+						</div>
+					</li>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Radiative recombination and electron-phonon coupling in lead-free CH<small>3</small></sub>NH<small>3</small></sub>SnI<small>3</small></sub> perovskite thin films</h4>
+						<p class="author">
+							<em>T. Handa</em>, T. Aharen, A. Wakamiya, and Y. Kanemitsu
+						</p>
+						<p class="journal">
+							<a href="https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.2.075402" target="_blank"><I>Phys. Rev. Materials</I></a>
+							<span class="fw-bold"> 2</span>, 075402 (2018).<!-- (DOI: 10.1103/PhysRevMaterials.2.075402)-->
+						</p>
+					</li>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Solvent-Coordinated Tin Halide Complexes as Purified Precursors for Tin-based Perovskites</h4>
+						<p class="author">
+							M. Ozaki, Y. Katsuki, J. Liu, <em>T. Handa</em>, R. Nishikubo, S. Yakumaru, Y. Hashikawa, Y. Murata, T. Saito, Y. Shimakawa, Y. Kanemitsu, A. Saeki, and A. Wakamiya
+						</p>
+						<p class="journal">
+							<a href="https://pubs.acs.org/doi/10.1021/acsomega.7b01292" target="_blank"><I>ACS Omega</I></a>
+							<span class="fw-bold"> 2</span>, 7016-7021 (2017).<!--　(DOI: 10.1021/acsomega.7b01292)-->
+						</p>
+					</li>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Photocarrier Recombination and Injection Dynamics in Long-Term Stable Lead-Free CH<small>3</small></sub>NH<small>3</small></sub>SnI<small>3</small></sub> 
+						Perovskite Thin Films and Solar Cells</h4>
+						<p class="author">
+							<em>T. Handa</em>, T. Yamada, H. Kubota, S. Ise, Y. Miyamoto, and Y. Kanemitsu
+						</p>
+						<p class="journal">
+							<a href="https://pubs.acs.org/doi/10.1021/acs.jpcc.7b06199" target="_blank"><I>J. Phys. Chem. C</I></a>
+							<span class="fw-bold"> 121</span>, 16158-16165 (2017).<!--　(DOI: 10.1021/acs.jpcc.7b06199)-->
+						</p>
+					</li>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Charge Injection Mechanism at Heterointerfaces in CH<small>3</small></sub>NH<small>3</small></sub>PbI<small>3</small></sub> Perovskite Solar Cells Revealed by Simultaneous Time-Resolved Photoluminescence and Photocurrent Measurements</h4>
+						<p class="author">
+							<em>T. Handa</em>, D. M. Tex, A. Shimazaki, A. Wakamiya, and Y. Kanemitsu
+						</p>
+						<p class="journal">
+							<a href="https://pubs.acs.org/doi/abs/10.1021/acs.jpclett.6b02847" target="_blank"><I>J. Phys. Chem. Lett.</I></a>
+							<span class="fw-bold"> 8</span>, 954-960 (2017).<!--　(DOI: 10.1021/acs.jpclett.6b02847)-->
+						</p>
+					</li>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Charge Injection at the Heterointerface in Perovskite CH<small>3</small></sub>NH<small>3</small></sub>PbI<small>3</small></sub> Solar Cells Studied by Simultaneous Microscopic Photoluminescence and Photocurrent Imaging Spectroscopy</h4>
+						<p class="author">
+							D. Yamashita, <em>T. Handa</em>, T. Ihara, H. Tahara, A. Shimazaki, A. Wakamiya, and Y. Kanemitsu
+						</p>
+						<p class="journal">
+							<a href="https://pubs.acs.org/doi/abs/10.1021/acs.jpclett.6b01231" target="_blank"><I>J. Phys. Chem. Lett.</I></a>
+							<span class="fw-bold"> 7</h4>, 3186-3191 (2016).<!--　(DOI: 10.1021/acs.jpclett.6b01231)-->
+						</p>
+					</li>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Optical Characterization of Voltage-Accelerated Degradation in CH<small>3</small></sub>NH<small>3</small></sub>PbI<small>3</small></sub> Perovskite Solar Cells </h4>
+						<p class="author">
+							<em>T. Handa</em>, D. M. Tex, A. Shimazaki, T. Aharen, A. Wakamiya, and Y. Kanemitsu
+						</p>
+						<p class="journal">
+							<a href="https://www.osapublishing.org/oe/fulltext.cfm?uri=oe-24-10-A917&id=340249" target="_blank"><I>Opt. Express</I></a>
+							<span class="fw-bold"> 24</span>, A917-A924 (2016).<!--　(DOI: 10.1364/OE.24.00A917)-->
+						</p>
+					</li>
+				</ol>
+			</div>
+		</section>
 
-
-<ol style="font-size:90%;" reversed>
-
-<li><b>Optimized carrier extraction at interfaces for 23.6% efficient tin-lead perovskite solar cells</b>
-	<br>S. Hu, K. Otsuka, R. Murdey, T. Nakamura, M. A. Truong, T. Yamada, <em>T. Handa</em>, K. Matsuda, K. Nakano, A. Sato, K. Marumoto, K. Tajima, Y. Kanemitsu, and A. Wakamiya<br>
-	<a href="https://pubs.rsc.org/en/content/articlehtml/2022/ee/d2ee00288d" target="_blank"><I>Energy Environ. Sci.</I></a> <b></b>, Advanced article (2022).<br>
-	<font color="red">*Picked up on <a href="https://www.kyoto-u.ac.jp/ja/research-news/2022-04-13-1" target="_blank">Kyoto University's website</a></font><sub>　</sub>
-
-</li>
-
-<li><b>Mixed lead-tin perovskite films with > 7 μs charge carrier lifetimes realized by maltol post-treatment</b>
-	<br>S. Hu, M.A. Truong, K. Otsuka, <em>T. Handa</em>, T. Yamada, R. Nishikubo, Y. Iwasaki, A. Saeki, R. Murdey, Y. Kanemitsu, and A. Wakamiya
-	<br><a href="https://pubs.rsc.org/en/content/articlehtml/2021/sc/d1sc04221a" target="_blank"><I>Chem. Sci.</I></a> <b>12</b>, 13513-13519 (2021).
-</li>
-
-<li><b>Light emission from halide perovskite semiconductors: bulk crystals, thin films, and nanocrystals</b>
-	<br>Takumi Yamada, <em>Taketo Handa</em>, Yasuhiro Yamada, and Yoshihiko Kanemitsu
-	<br><a href="https://iopscience.iop.org/article/10.1088/1361-6463/ac0e58/meta" target="_blank"><I>J. Phys. D: Appl. Phys.</I></a> <b>54</b>, 383001 (2021).
-	<br><font color="green">*Topical review</font><sub>　</sub>
-</li>
-
-<li><b>Near-Ultraviolet Transparent Organic Hole-Transporting Materials Containing Partially Oxygen-Bridged Triphenylamine Skeletons for Efficient Perovskite Solar Cells</b>
-	<br>Minh Anh Truong, Hayoon Lee, Ai Shimazaki, Ryota Mishima, Masashi Hino, Kenji Yamamoto, Kento Otsuka, <em>Taketo Handa</em>, Yoshihiko Kanemitsu, Richard Murdey, and Atsushi Wakamiya
-	<br><a href="https://pubs.acs.org/doi/abs/10.1021/acsaem.0c02677" target="_blank"><I>ACS Appl. Energy Mater.</I></a> <b>4</b>, 1484-1495 (2021).
-</li>
-
-
-<li><b>Materials Chemistry Approach for Efficient Lead-Free Tin Halide Perovskite Solar Cells</b>
-	<br>T. Nakamura, <em>T. Handa</em>, R. Murdey, Y. Kanemitsu, and A. Wakamiya
-	<br><a href="https://pubs.acs.org/doi/10.1021/acsaelm.0c00859" target="_blank"><I>ACS Appl. Electron. Mater.</I></a> <b>2</b>, 3794-3804 (2020).
-	<br><font color="green">*Spotlight on Applications</font><sub>　</sub>
-</li>
-
-<li><b>Phonon, thermal, and thermo-optical properties of halide perovskites</b>
-	<br><em>T. Handa</em>, T. Yamada, M. Nagai, and Y. Kanemitsu
-	<br><a href="https://pubs.rsc.org/en/content/articlelanding/2020/cp/d0cp04426a" target="_blank"><I>Phys. Chem. Chem. Phys.</I></a> <b>22</b>, 26069-26087 (2020).
-	<br><font color="green">*Perspective paper</font>　<font color="red">*Selected as <a href="https://pubs.rsc.org/en/journals/articlecollectionlanding?sercode=cp&themeid=82b7cc99-4e0c-4c4a-bb00-a57a776e3a9c" target="_blank">2020 HOT PCCP article</a>, so it is free to access until Februrary 2021!</font><sub>　</sub>
-</li>
-
-<li><b>Large thermal expansion leads to negative thermo-optic coefficient of halide perovskite CH<sub><small>3</small></sub>NH<sub><small>3</small></sub>PbCl<sub><small>3</small></sub></b>
-	<br><em>T. Handa</em>, H. Tahara, T. Aharen, A. Shimazaki, A. Wakamiya, and Y. Kanemitsu
-	<br><a href="https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.4.074604" target="_blank"><I>Phys. Rev. Materials</I></a> <b>4</b>, 074604 (2020).
-	<br><font color="blue">*Open access</font><sub>　</sub>
-</li>
-
-<li><b>Sn(IV)-free tin perovskite films realized by in situ Sn(0) nanoparticle treatment of the precursor solution</b>
-	<br>T. Nakamura, S. Yakumaru, M. A. Truong, K. Kim, J. Liu, S. Hu, K. Otsuka, R. Hashimoto, R. Murdey, T. Sasamori, H. D. Kim, H. Ohkita, <em>T. Handa</em>, Y. Kanemitsu, and A. Wakamiya
-	<br><a href="https://www.nature.com/articles/s41467-020-16726-3" target="_blank"><I>Nat. Commun.</I></a> <b>11</b>, 3008 (2020).
-	<br><font color="blue">*Open access</font>　<font color="red">*Picked up on <a href="http://www.kyoto-u.ac.jp/ja/research/research_results/2020/200616_1.html" target="_blank">Kyoto University's website</a>.</font><sub>　</sub>
-</li>
-
-<li><b>Optical responses of lead halide perovskite semiconductors</b>
-	<br>Y. Kanemitsu, T. Yamada, <em>T. Handa</em>, and M. Nagai
-	<br><a href="https://iopscience.iop.org/article/10.1088/1361-6641/ab95b1/meta" target="_blank"><I>Semicond. Sci. Technol.</I></a> <b>35</b>, 093001 (2020).
-	<br><font color="green">*Topycal review</font><sub>　</sub>
-</li>
-
-<li><b>One-step solution synthesis of white-light-emitting films via dimensionality control of the Cs-Cu-I system</b>
-	<br>T. Jun, <em>T. Handa</em>, K. Sim, S. Iimura, M. Sasase, J. Kim, Y. Kanemitsu, and H. Hosono
-	<br><a href="https://aip.scitation.org/doi/10.1063/1.5127300" target="_blank"><I>APL Mater.</I></a> <b>7</b>, 111113 (2019).<!-- (DOI: 10.1063/1.5127300)-->
-	<br><font color="blue">*Open access</font>　<font color="red">*Featured in <a href="https://aip.scitation.org/doi/10.1063/10.0000372" target="_blank">Scilight</a></font>.<sub>　</sub>
-</li>
-
-<li><b>Photophysics of lead-free tin halide perovskite films and solar cells</b>
-	<br><em>T. Handa</em>, A. Wakamiya, and Y. Kanemitsu
-	<br><a href="https://aip.scitation.org/doi/10.1063/1.5109704" target="_blank"><I>APL Mater.</I></a> <b>7</b>, 080903 (2019).<!--  (DOI: 10.1063/1.5109704)-->
-	<br><font color="green">*Perspective paper</font>　<font color="blue">*Open access</font><sub>　</sub>
-</li>
-
-<li><b>Large negative thermo-optic coefficients of a lead halide perovskite</b>
-	<br><em>T. Handa</em>, H. Tahara, T. Aharen, and Y. Kanemitsu
-	<br><a href="https://www.science.org/doi/10.1126/sciadv.aax0786" target="_blank"><I>Sci. Adv.</I></a> <b>5</b>, eaax0786 (2019).<!--  (DOI: 10.1126/sciadv.aax0786)-->
-	<br><font color="blue">*Open access</font>　<font color="red">*Picked up on <a href="http://www.kyoto-u.ac.jp/ja/research/research_results/2019/190720_1.html" target="_blank">Kyoto University's website</a>.</font><sub>　</sub>
-</li>
-
-<li><b>Structure-property relations in Ag-Bi-I compounds: potential Pb-free absorbers in solar cells</b>
-	<br>A. Koedtruad, M. Goto, M. A. Patino, Z. Tan, H. Guo, T. Nakamura, <em>T. Handa</em>, W.-T. Chen, Y.-C. Chuang, H.-S. Sheu, T. Saito, D. Kan, Y. Kanemitsu, A. Wakamiya, and Y. Shimakawa 
-	<br><a href="https://pubs.rsc.org/en/content/articlelanding/2019/ta/c8ta11227d" target="_blank"><I>J. Mater. Chem. A</I></a> <b>7</b>, 5583-5588 (2019).<!-- (DOI: 10.1039/c8ta11227d)--><sub>　</sub>
-</li>
-
-<li><b>Lead‐Free Solar Cells based on Tin Halide Perovskite Films with High Coverage and Improved Aggregation</b>
-	<br>J. Liu, M.Ozaki, S. Yakumaru, <em>T. Handa</em>, R. Nishikubo, Y. Kanemitsu, A. Saeki, Y. Murata, R. Murdey, and A. Wakamiya
-	<br><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/anie.201808385" target="_blank"><I>Angew. Chem. Int. Ed.</I></a> <b>57</b>, 13221-13225 (2018).<!-- (DOI: 10.1002/anie.201808385)--><sub>　</sub>
-</li>
-
-<li><b>Photophysics of metal halide perovskites: from materials to devices</b>
-	<br>Y. Kanemitsu and <em>T. Handa</em>
-	<br><a href="https://iopscience.iop.org/article/10.7567/JJAP.57.090101" target="_blank"><I>Jpn. J. Appl. Phys.</I></a> <b>57</b>, 090101 (2018).<!-- (DOI: 10.7567/JJAP.57.090101)-->
-	<br><font color="green">*Invited review</font>　<font color="blue">*Open access </font>　<font color="red">*Awarded for the JSAP Best Review Paper Award </font><sub>　</sub>
-</li>
-
-<li><b>Radiative recombination and electron-phonon coupling in lead-free CH<sub><small>3</small></sub>NH<sub><small>3</small></sub>SnI<sub><small>3</small></sub> perovskite thin films</b>
-	<br><em>T. Handa</em>, T. Aharen, A. Wakamiya, and Y. Kanemitsu
-	<br><a href="https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.2.075402" target="_blank"><I>Phys. Rev. Materials</I></a> <b>2</b>, 075402 (2018).<!-- (DOI: 10.1103/PhysRevMaterials.2.075402)--><sub>　</sub>
-</li>
-
-<li><b>Solvent-Coordinated Tin Halide Complexes as Purified Precursors for Tin-based Perovskites</b>
-	<br>M. Ozaki, Y. Katsuki, J. Liu, <em>T. Handa</em>, R. Nishikubo, S. Yakumaru, Y. Hashikawa, Y. Murata, T. Saito, Y. Shimakawa, Y. Kanemitsu, A. Saeki, and A. Wakamiya
-	<br><a href="https://pubs.acs.org/doi/10.1021/acsomega.7b01292" target="_blank"><I>ACS Omega</I></a> <b>2</b>, 7016-7021 (2017).<!--　(DOI: 10.1021/acsomega.7b01292)--><sub>　</sub>
-</li>
-
-<li><b>Photocarrier Recombination and Injection Dynamics in Long-Term Stable Lead-Free CH<sub><small>3</small></sub>NH<sub><small>3</small></sub>SnI<sub><small>3</small></sub> 
-	Perovskite Thin Films and Solar Cells</b>
-	<br><em>T. Handa</em>, T. Yamada, H. Kubota, S. Ise, Y. Miyamoto, and Y. Kanemitsu
-	<br><a href="https://pubs.acs.org/doi/10.1021/acs.jpcc.7b06199" target="_blank"><I>J. Phys. Chem. C</I></a> <b>121</b>, 16158-16165 (2017).<!--　(DOI: 10.1021/acs.jpcc.7b06199)--><sub>　</sub>
-</li>
-
-<li><b>Charge Injection Mechanism at Heterointerfaces in CH<sub><small>3</small></sub>NH<sub><small>3</small></sub>PbI<sub><small>3</small></sub> Perovskite Solar Cells Revealed by Simultaneous Time-Resolved Photoluminescence and Photocurrent Measurements</b>
-	<br><em>T. Handa</em>, D. M. Tex, A. Shimazaki, A. Wakamiya, and Y. Kanemitsu
-	<br><a href="https://pubs.acs.org/doi/abs/10.1021/acs.jpclett.6b02847" target="_blank"><I>J. Phys. Chem. Lett.</I></a> <b>8</b>, 954-960 (2017).<!--　(DOI: 10.1021/acs.jpclett.6b02847)--><sub>　</sub>
-</li>
-
-<li><b>Charge Injection at the Heterointerface in Perovskite CH<sub><small>3</small></sub>NH<sub><small>3</small></sub>PbI<sub><small>3</small></sub> Solar Cells Studied by Simultaneous Microscopic Photoluminescence and Photocurrent Imaging Spectroscopy</b>
-	<br>D. Yamashita, <em>T. Handa</em>, T. Ihara, H. Tahara, A. Shimazaki, A. Wakamiya, and Y. Kanemitsu
-	<br><a href="https://pubs.acs.org/doi/abs/10.1021/acs.jpclett.6b01231" target="_blank"><I>J. Phys. Chem. Lett.</I></a> <b>7</b>, 3186-3191 (2016).<!--　(DOI: 10.1021/acs.jpclett.6b01231)--><sub>　</sub>
-</li>
-
-<li>
-	<b>Optical Characterization of Voltage-Accelerated Degradation in CH<sub><small>3</small></sub>NH<sub><small>3</small></sub>PbI<sub><small>3</small></sub> Perovskite Solar Cells </b>
-	<br><em>T. Handa</em>, D. M. Tex, A. Shimazaki, T. Aharen, A. Wakamiya, and Y. Kanemitsu
-	<br><a href="https://www.osapublishing.org/oe/fulltext.cfm?uri=oe-24-10-A917&id=340249" target="_blank"><I>Opt. Express</I></a> <b>24</b>, A917-A924 (2016).<!--　(DOI: 10.1364/OE.24.00A917)--><sub>　</sub>
-</li>
-
-
-</ol>
-
-<br>
-
-<h3>日本語解説</h3>
-
-<ol style="font-size:90%;" reversed>
-
-<li><b>非鉛スズハライドペロブスカイトの基礎光物性</b>
-	<br>金光義彦, <em>半田岳人</em>
-	<br><I>日本写真学会誌</I> <b>81</b>, 334-337 (2018).
-</li>
-
-</ol>
-
-<br
->
-<h3>Proceedings</h3>
-
-<ol style="font-size:90%;" reversed>
-
-<li><b>Photoelectronic properties of lead-free CH<sub><small>3</small></sub>NH<sub><small>3</small></sub>SnI<sub><small>3</small></sub> perovskite solar cell materials and devices</b><sub>　</sub>
-	<br><em>T. Handa</em>, T. Aharen, A. Wakamiya, and Y. Kanemitsu
-	<br><I>Proc. SPIE</I> <b>10737</b>, 107371X-1 (2018).<!--　(DOI: 10.1117/12.2322700)-->
-</li>
-
-<li><b>Photophysics of organic-inorganic hybrid perovskite solar cells</b><sub>　</sub>
-	<br>H. Tahara, <em>T. Handa</em>, and Y. Kanemitsu
-	<br><I>Proc. SPIE</I> <b>10527</b>, 1052702 (2018).<!--　(DOI: 10.1117/12.2288282)-->
-</li>
-
-<li><b>Carrier Injection and Recombination Processes in Perovskite 
-	CH<sub><small>3</small></sub>NH<sub><small>3</small></sub>PbI<sub><small>3</small></sub> 
-	Solar Cells Studied by Electroluminescence Spectroscopy</b><sub>　</sub>
-	<br><em>T. Handa</em>, M. Okano, D. M. Tex, A. Shimazaki, T. Aharen, A. Wakamiya, and Y. Kanemitsu
-	<br><I>Proc. SPIE</I> <b>9745</b>, 97451I-1 (2016).<!--　(DOI: 10.1117/12.2212052)-->
-</li>
-
-
-</ol>
-
-
-
-</div>
-<hr>
-</div>
-<div id="FOOTER">
-<h2>連絡先</h2>
-<ul>
-<li id="FOOTER01"><a href="#PAGETOP">△TOP</a></li>
-</ul>
-</div>
-</div>
+		<section id="publications-japanese-explanation">
+			<div class="container">
+				<h3>日本語解説</h3>
+				<ol class="journal-articles-list" reversed>
+				<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>非鉛スズハライドペロブスカイトの基礎光物性</h4>
+						<p class="author">
+							金光義彦, <em>半田岳人</em>
+						</p>
+						<p class="journal">
+							<I>日本写真学会誌</I>
+							<span class="fw-bold"> 81</span>, 334-337 (2018).
+						</p>
+					</li>
+				</ol>
+			</div>
+		</section>
+		<section id="publications-proceedins">
+			<div class="container">
+				<h3>Proceedings</h3>
+				<ol class="journal-articles-list" reversed>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Photoelectronic properties of lead-free CH<small>3</small></sub>NH<small>3</small></sub>SnI<small>3</small></sub> perovskite solar cell materials and devices</h4>
+						<p class="author">
+							<em>T. Handa</em>, T. Aharen, A. Wakamiya, and Y. Kanemitsu
+						</p>
+						<p class="journal">
+							<I>Proc. SPIE</I>
+							<span class="fw-bold"> 10737</span>, 107371X-1 (2018).<!--　(DOI: 10.1117/12.2322700)-->
+						</p>
+					</li>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Photophysics of organic-inorganic hybrid perovskite solar cells</h4>
+						<p class="author">
+							H. Tahara, <em>T. Handa</em>, and Y. Kanemitsu
+						</p>
+						<p class="journal">
+							<I>Proc. SPIE</I>
+							<span class="fw-bold">10527</span>, 1052702 (2018).<!--　(DOI: 10.1117/12.2288282)-->
+						</p>
+					</li>
+					<!-- Single article -->
+					<li class="journal-article-item">
+						<h4>Carrier Injection and Recombination Processes in Perovskite 
+						CH<small>3</small></sub>NH<small>3</small></sub>PbI<small>3</small></sub> 
+						Solar Cells Studied by Electroluminescence Spectroscopy</h4>
+						<p class="author">
+							<em>T. Handa</em>, M. Okano, D. M. Tex, A. Shimazaki, T. Aharen, A. Wakamiya, and Y. Kanemitsu
+						</p>
+						<p class="journal">
+							<I>Proc. SPIE</I>
+							<span class="fw-bold"> 9745</span>, 97451I-1 (2016).<!--　(DOI: 10.1117/12.2212052)-->
+						</p>
+					</li>
+				</ol>
+			</div>
+		</section>
+	</main>
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<span>&copy; Taketo Handa</span>
+		</div>
+	</footer>
+	<!-- Page top button -->
+	<div class="go-top-btn">
+		<span class="go-top-btn-span">
+		  	<a href="#header">
+				<i class="fa-solid fa-circle-arrow-up fa-2x"></i>
+		  	</a>
+		</span>
+	</div>
+	<!-- Javascript -->
+	<script src="app.js"></script>
 </body>
 </html>
